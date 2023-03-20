@@ -632,6 +632,14 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
+name = "sklearn"
+version = "0.0.post2"
+description = "deprecated sklearn package, use scikit-learn instead"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
@@ -721,7 +729,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "1b50b19b93f54c8ece5947bdddcd52431e199ec4eaecc0328cb2727e84ca0a59"
+content-hash = "72b5e386372c77dacb420603f11806e061a617ee8a3c6ae3d3d4955208e41c70"
 
 [metadata.files]
 aiohttp = []
@@ -774,6 +782,7 @@ replit-python-lsp-server = []
 requests = []
 rope = []
 six = []
+sklearn = []
 toml = []
 tomli = []
 typing-extensions = []

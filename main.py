@@ -1,5 +1,9 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-pd.read_csv('vgsales.csv')
+df = pd.read_csv('vgsales.csv')
 
-pd
+X = df['NA_Sales'].values
+y = df['Rank'].values
+
+plt.scatter(X, y)
+plt.show()
